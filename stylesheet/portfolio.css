@@ -1,4 +1,4 @@
-/***** GENERAL STYLING *****/
+na/***** GENERAL STYLING *****/
 /* Body */
 body {
     margin: 0%  /* This ensures our site displays all the way to the edge of the browser screen */
@@ -104,7 +104,7 @@ footer {
     top: 0; /* This ensures no space is displayed above the navbar */
     width: 100%; /* This makes the navbar span the entire width of the page */
     z-index: 1; /* This ensures other elements don't display over the navbar */
-    -webkit-animation: moveNav 5s; /* This applies the moveNav animation below for Safari 4.0 - 8.0 */
+    -webkit-animation: moveNav 1s; /* This applies the moveNav animation below for Safari 4.0 - 8.0 */
     animation: moveNav 1s; /* This applies the moveNav animation for all other browsers */
 }
 
@@ -125,8 +125,8 @@ footer {
     font-size: 20px; /* This specifies the font size for text on our navbar */
     text-align: center; /* This centers the text within its container */
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
-    -webkit-animation: moveNavText 5.75s; /* Animation for Safari 4.0 - 8.0 */
-    animation: moveNavText 5.75s; /* Applies the moveNavText animation for 5.75s */ 
+    -webkit-animation: moveNavText 1.75s; /* Animation for Safari 4.0 - 8.0 */
+    animation: moveNavText 1.75s; /* Applies the moveNavText animation for 5.75s */ 
 }
 
 /* moveNavText animation effect for moving the navbar text from above the view to the navbar */
